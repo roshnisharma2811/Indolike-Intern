@@ -1,2 +1,2 @@
 # codealpha_tasks
-Internship Tasks under CodeAlpha
+Internship Tasks under the guidance of CodeAlpha
