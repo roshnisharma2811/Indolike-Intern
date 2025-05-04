@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">📺 YouTube</div>
+    <input type="text" placeholder="Search..." class="search-box"/>
+    <div class="profile">👤</div>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <ul>
+        <li>Home</li>
+        <li>Trending</li>
+        <li>Subscriptions</li>
+        <li>Library</li>
+      </ul>
+    </aside>
+
+    <main class="videos">
+      <!-- Repeat this block for more videos -->
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/ScMzIvxBSi4/hqdefault.jpg" alt="Video Thumbnail">
+        <h4>Sample Video Title</h4>
+        <p>Channel Name • 1M views • 2 days ago</p>
+      </div>
+
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/tgbNymZ7vqY/hqdefault.jpg" alt="Video Thumbnail">
+        <h4>Another Video</h4>
+        <p>Another Channel • 500k views • 1 week ago</p>
+      </div>
+
+      <!-- Add more videos as needed -->
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
